@@ -1,0 +1,30 @@
+.post__form-wrapper, .post__form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.post__form-wrapper{
+  margin-top: 15px;
+}
+
+input, textarea{
+  width: 100%;
+  border: 2px solid #686868;
+  border-radius: 8px;
+  padding: 7px 5px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+button{
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 7px ;
+  border: 1px solid #000000;
+  background: #ffffff;
+  color: #000000;
+}

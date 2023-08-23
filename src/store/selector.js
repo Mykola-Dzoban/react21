@@ -1,0 +1,9 @@
+export const authorsSelector = (state) => state.authors;
+export const authorsPicSelector = (state) => state.authorsPic;
+export const nicknamesSelector = (state) => state.nicknames;
+export const contentPicSelector = (state) => state.contentPic;
+export const dateSelector = (state) => state.date;
+export const contentTextSelector = (state) => state.contentText;
+export const likesAmountSelector = (state) => state.likesAmount;
+export const commentsAmountSelector = (state) => state.commentsAmount;
+export const repostAmountSelector = (state) => state.repostAmount;
